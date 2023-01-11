@@ -2,7 +2,7 @@ using Ecs.Animation.Models;
 using UnityEditor;
 using UnityEngine;
 
-namespace @_.Ecs.AnimationSystem.Editor
+namespace Ecs.Animation.Editor
 {
     [CustomEditor(typeof(EcsAnimationGroupData))]
     public class AnimationGroupEditor : UnityEditor.Editor

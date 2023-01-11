@@ -1,6 +1,6 @@
 ﻿using UnityEditor;
 
-namespace _.Ecs.AnimationSystem.Editor.Data
+namespace Ecs.Animation.Editor.Data
 {
     public class EcsAnimationProperties
     {

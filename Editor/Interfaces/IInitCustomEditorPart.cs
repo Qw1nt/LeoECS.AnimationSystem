@@ -1,4 +1,4 @@
-﻿namespace _.Ecs.AnimationSystem.Editor.Interfaces
+﻿namespace Ecs.Animation.Editor.Interfaces
 {
     public interface IInitCustomEditorPart : ICustomEditorPart
     {

@@ -1,8 +1,8 @@
-﻿using _.Ecs.AnimationSystem.Editor.Interfaces;
-using CustomEditorTools;
+﻿using CustomEditorTools;
+using Ecs.Animation.Editor.Interfaces;
 using UnityEditor;
 
-namespace _.Ecs.AnimationSystem.Editor.EditorWindowParts
+namespace Ecs.Animation.Editor.EditorWindowParts
 {
     public class DefaultAnimationKeyPart : IInitCustomEditorPart
     {
@@ -55,7 +55,7 @@ namespace _.Ecs.AnimationSystem.Editor.EditorWindowParts
 
         public void Render()
         {
-            _selectedIndex = EditorGUILayout.Popup("Default animation name:", _selectedIndex, _ecsAnimationsNames,
+            _selectedIndex = EditorGUILayout.Popup("Base Animation Name:", _selectedIndex, _ecsAnimationsNames,
                 GUIStyles.New(EditorStyles.popup).Margin(4, 8, 0, 8));
             _defaultAnimationKey.stringValue = _ecsAnimationsNames[_selectedIndex];
         }

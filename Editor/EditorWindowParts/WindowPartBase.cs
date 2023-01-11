@@ -1,9 +1,8 @@
-﻿using System;
-using CustomEditorTools;
+﻿using CustomEditorTools;
 using UnityEditor;
 using UnityEngine;
 
-namespace _.Ecs.AnimationSystem.Editor.EditorWindowParts
+namespace Ecs.Animation.Editor.EditorWindowParts
 {
     public abstract class WindowPartBase
     {

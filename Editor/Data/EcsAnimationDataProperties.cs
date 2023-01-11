@@ -4,7 +4,7 @@ using Ecs.Animation.Models;
 using UnityEditor;
 using UnityEngine;
 
-namespace _.Ecs.AnimationSystem.Editor.Data
+namespace Ecs.Animation.Editor.Data
 {
     public class EcsAnimationDataProperties
     {

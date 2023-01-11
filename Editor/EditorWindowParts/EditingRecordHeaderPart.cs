@@ -1,10 +1,10 @@
 ﻿using System;
-using _.Ecs.AnimationSystem.Editor.Interfaces;
 using CustomEditorTools;
+using Ecs.Animation.Editor.Interfaces;
 using UnityEditor;
 using UnityEngine;
 
-namespace _.Ecs.AnimationSystem.Editor.EditorWindowParts
+namespace Ecs.Animation.Editor.EditorWindowParts
 {
     public class EditingRecordHeaderPart : ICustomEditorPart
     {

@@ -1,12 +1,12 @@
-using System.Collections.Generic;
-using _.Ecs.AnimationSystem.Editor.Data;
-using _.Ecs.AnimationSystem.Editor.EditorWindowParts;
-using _.Ecs.AnimationSystem.Editor.Interfaces;
+using Ecs.Animation.Editor.Data;
+using Ecs.Animation.Editor.EditorWindowParts;
+using Ecs.Animation.Editor.Interfaces;
+using Ecs.Animation.EditorWindowParts;
 using Ecs.Animation.Models;
 using UnityEditor;
 using UnityEngine;
 
-namespace _.Ecs.AnimationSystem.Editor
+namespace Ecs.Animation.Editor
 {
     public class AnimationGroupEditorWindow : EditorWindow
     {
